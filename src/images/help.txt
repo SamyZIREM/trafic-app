@@ -1,0 +1,24 @@
+Fonctionnement de l'application:
+
+1-> Construction du circuit: 
+
+Premièrement faudrait se mettre en mode 'Construction' (bouton en bas de l'application qui alterne entre Simulation/Construction).
+
+Deuxièmement: pour construire une 'route', une 'route d'entrée', un 'feu' ou un 'stop' l'utilisateur doit d'abord le séléctionner sur
+la fenetre qui se retrouve à droite.
+
+Troisièmement: pour choisir le sens de la route d'entrée l'utilisateur doit seulement faire des cliques qui font pivoter l'image et qui 
+donc changent le sens des routes d'entrées.
+
+Quatrèmement: pour mettre sur la ville un élément quelconque on doit seulement le sélectionner et cliquer sur l'endroit ou on le souhaite le déposer.
+
+
+2-> Simulation: une fois le circuit construit, on appuie sur la bouton du bas pour se mettre en mode Simulation. 
+On verra alors des voitures qui se générent dans le sens de la route d'entrée. 
+Des problèmes de circulation vont se générer, pour se faire on se remet en mode construction ou bien on séléctionne un des éléments 
+qui sont à droite (feu, stop...)
+
+Attention ! le stop fonctionne seulement pour éviter les bouchons en ligne droite. Or, sa fonctionnalité n'est pas fiable pour les 
+intersections, c'est le 'feu' qui est adapté aux intersections et c'est à l'utilisateur de le mettre en vert ou en rouge en fonction
+de la circulation des voitures pour éviter les collisions. 
+
